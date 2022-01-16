@@ -235,6 +235,12 @@ extension InferenceViewController: UITableViewDelegate, UITableViewDataSource {
             let inference = tempResult.inferences[row]
             fieldName = inference.label
             info =  String(format: "%.2f", inference.confidence * 100.0) + "%"
+            
+            // MARK: - Read the output out loud
+            if inference.confidence > 0.9 && row == 0{
+                print(inference.label)
+            }
+            // MARK: 0-
         }
         else {
             fieldName = ""
