@@ -244,6 +244,7 @@ extension InferenceViewController: UITableViewDelegate, UITableViewDataSource {
                 SpeechService.sharedInstance.startSpeech(text)
             }
             // MARK: 0-
+            
         }
         else {
             fieldName = ""
