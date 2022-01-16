@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0ACA7B1ADF03B1904DC40B51 /* Pods_ImageClassification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7231BCFB066D2432C636AE6C /* Pods_ImageClassification.framework */; };
+		9F80AD9F279491480053F491 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80AD9E279491480053F491 /* SpeechService.swift */; };
 		AA16E5A22180843800D9E153 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16E5A12180843700D9E153 /* InfoCell.swift */; };
 		AA5B0EEA217E5E300026FF23 /* InferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B0EE9217E5E300026FF23 /* InferenceViewController.swift */; };
 		AA5B0EEC217E70000026FF23 /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B0EEB217E70000026FF23 /* CurvedView.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		2A31E69FF6AB664D402131D6 /* Pods-ImageClassification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageClassification.release.xcconfig"; path = "Target Support Files/Pods-ImageClassification/Pods-ImageClassification.release.xcconfig"; sourceTree = "<group>"; };
 		7231BCFB066D2432C636AE6C /* Pods_ImageClassification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageClassification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F80AD9E279491480053F491 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		AA16E5A12180843700D9E153 /* InfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
 		AA5B0EE9217E5E300026FF23 /* InferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InferenceViewController.swift; sourceTree = "<group>"; };
 		AA5B0EEB217E70000026FF23 /* CurvedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 				2A31E69FF6AB664D402131D6 /* Pods-ImageClassification.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F80AD9D2794912E0053F491 /* SpeechService */ = {
+			isa = PBXGroup;
+			children = (
+				9F80AD9E279491480053F491 /* SpeechService.swift */,
+			);
+			path = SpeechService;
 			sourceTree = "<group>";
 		};
 		AA16E5A02180843700D9E153 /* Cells */ = {
@@ -146,6 +156,7 @@
 		AAE79E58213521DA00E7AC1F /* ImageClassification */ = {
 			isa = PBXGroup;
 			children = (
+				9F80AD9D2794912E0053F491 /* SpeechService */,
 				AAAB096C218981A30015A1F2 /* Extensions */,
 				AA16E5A02180843700D9E153 /* Cells */,
 				AA24751A2170A054000B6A31 /* Views */,
@@ -304,6 +315,7 @@
 				AAAB096E218981FA0015A1F2 /* CVPixelBufferExtension.swift in Sources */,
 				AA16E5A22180843800D9E153 /* InfoCell.swift in Sources */,
 				AABFCBB2213FE0B100C0A67B /* ModelDataHandler.swift in Sources */,
+				9F80AD9F279491480053F491 /* SpeechService.swift in Sources */,
 				AA5B0EEA217E5E300026FF23 /* InferenceViewController.swift in Sources */,
 				AAE79E5A213521DA00E7AC1F /* AppDelegate.swift in Sources */,
 			);

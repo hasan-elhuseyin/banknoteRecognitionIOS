@@ -238,7 +238,10 @@ extension InferenceViewController: UITableViewDelegate, UITableViewDataSource {
             
             // MARK: - Read the output out loud
             if inference.confidence > 0.9 && row == 0{
-                print(inference.label)
+                var text: String = inference.label
+                text.removeFirst()
+                SpeechService.sharedInstance.stopSpeech()
+                SpeechService.sharedInstance.startSpeech(text)
             }
             // MARK: 0-
         }
